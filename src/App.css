@@ -1,3 +1,5 @@
+/* StartMenu */
+
 .hero-section{
   background: 
    radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%),
@@ -59,3 +61,77 @@
   0 8px 8px rgba(0,0,0,0.12),
   0 16px 16px rgba(0,0,0,0.12);
 }
+
+/* StartMenu */
+
+/* Battle */
+
+.opponent,
+.user {
+  max-width: 500px;
+  padding: 2rem;
+}
+
+
+
+
+/* Battle */
+
+/* PlayerSummary */
+
+.player-sum-box{
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+
+
+
+
+
+/* PlayerSummary */
+
+/* Bar */
+
+.bar-main{
+  display: flex;
+  border-radius: 5px;
+  gap: 5px;
+  padding: 5px;
+  align-items: center;
+  background-color: white;
+}
+
+.bar-label{
+  font-size: 32px;
+  font-weight: bold;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50px;
+  color: black;
+}
+
+.bar-max{
+  height: 35px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex: 1;
+  background-color: lightgray;
+}
+
+.bar-value{
+  height: 100%;
+  background-color: #0566fa;
+  transition: 0.35s;
+}
+
+
+
+/* Bar */
+
+
