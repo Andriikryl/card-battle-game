@@ -20,7 +20,7 @@ export const PlayerSummary = ({
         <p className="info-level">Lvl: {level}</p>
       </div>
       <div className="health">
-        <Bar label="HP" value={health} maxHealth={maxHealth} />
+        <Bar label="HP" value={health} maxValue={maxHealth} />
       </div>
     </div>
   );
