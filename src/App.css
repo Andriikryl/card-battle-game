@@ -47,7 +47,8 @@
 .startButton{
   padding: 1.5rem 2rem;
   text-transform: uppercase;
-  font-size: clamp(17px 8vw - 1rem, 40px);
+  font-size: clamp(16px, 100vw / 12.5, 32px);
+  color: white;
   cursor: pointer;
   border-radius: 10px;
   border: none;
@@ -290,5 +291,43 @@
 
 
 /* BattleMenu */
+.battle-announcer-main{
+  height: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
 
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: #1953cb;
+}
+.message {
+  text-align: center;
+  font-size: 32px;
+}
+
+/* BattleAnnouncer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BattleAnnouncer */
 
