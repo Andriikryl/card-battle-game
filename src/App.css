@@ -1,0 +1,61 @@
+.hero-section{
+  background: 
+   radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%),
+   radial-gradient(ellipse at 70% 60%, rgba(195,224,96,1) 0%,rgba(195,224,96,0) 30%),
+   radial-gradient(ellipse at bottom left, rgba(0,163,203,1) 0%, rgba(0,163,203,0) 70%),
+   linear-gradient(135deg, rgba(18,46,119,0) 0%,rgba(18,46,119,0) 75%,rgba(18,46,119,1) 100%),
+   linear-gradient(to right, rgba(98,87,147,1) 0%, rgba(213,93,100,1) 17%, rgba(228,145,41,1) 74%, rgba(192,103,28,1) 100%);
+ background-blend-mode: 
+    screen, 
+    hue,
+    color,
+    overlay,
+    normal;
+}
+.main{
+  background-image: url(/public/assets/hero-two.jpeg);
+  mask-image: linear-gradient(to bottom, transparent, #000),
+  linear-gradient(to bottom, #000, transparent),
+  linear-gradient(to bottom, transparent, #000),
+  linear-gradient(to bottom, #000, transparent),
+  linear-gradient(to bottom, transparent, #000);
+  mask-size: 18% 70%;
+  mask-position: 0 100%, 25% 25%, 50% 50%, 75% 0, 100% 50%;
+  mask-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.container{
+  max-width: 1400px;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+}
+
+.main-box{
+  padding-block-start: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startButton{
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  font-size: clamp(17px 8vw - 1rem, 40px);
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  min-width: 200px;
+  background-color: tomato;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+  0 2px 2px rgba(0,0,0,0.12), 
+  0 4px 4px rgba(0,0,0,0.12), 
+  0 8px 8px rgba(0,0,0,0.12),
+  0 16px 16px rgba(0,0,0,0.12);
+}
